@@ -55,4 +55,8 @@ nav li {
     background: #777;  
     /* float: left; */
     display: inline-block;
-}   
+}
+
+.container-gallery img {
+    width: 100%;
+}
