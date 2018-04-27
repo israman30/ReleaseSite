@@ -52,7 +52,7 @@ nav li {
 .container-gallery .c{
     width:30%;
     height: 200px;
-    background: #777;
+    background: #777;  
     /* float: left; */
     display: inline-block;
 }   
