@@ -43,13 +43,16 @@ nav li {
     min-height: 100px;
     margin: auto;
     background: #fff;
+    align-items: center;
+    text-align: center;
 }
 
 .container-gallery .a,
 .container-gallery .b,
 .container-gallery .c{
     width:30%;
-    height: 100px;
+    height: 200px;
     background: #777;
-    float: left;
-}
+    /* float: left; */
+    display: inline-block;
+}   
