@@ -82,7 +82,6 @@ nav li {
 }
 
 /* ===== footer section ======= */
-
 .footer {
     width: 100%;
     height: 500px;
@@ -114,10 +113,7 @@ nav li {
 }
 
 
-
-
-
-/* @@@@@ Media @@@@@ */
+/* =======@@@@@ Media Query @@@@@===== */
 @media(max-width: 1160px) {
     #photos {
         -moz-column-count: 2;
