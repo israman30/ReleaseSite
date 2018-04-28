@@ -79,3 +79,14 @@ nav li {
     margin-top: 20px;
     margin-left: 20px;
 }
+
+/* ===== footer section ======= */
+
+.footer {
+    width: 100%;
+    height: 500px;
+    background: #858180;
+}
+
+.footer a {
+}
