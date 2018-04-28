@@ -38,7 +38,7 @@ nav li {
 }
 
 /* ========== Gallery ================ */
-.container-gallery {
+/* .container-gallery {
     width: 80%;
     min-height: 100px;
     margin: auto;
@@ -54,9 +54,27 @@ nav li {
     height: 200px;
     background: #777;  
     /* float: left; */
-    display: inline-block;
-}
+    /* display: inline-block;
+} 
 
 .container-gallery img {
     width: 100%;
+} */ 
+
+#photos {
+    margin-left: 100px;
+    margin-right: 100px;
+    line-height: 0;
+    -webkit-column-count: 3;
+    -webkit-column-gap: 0px;
+    -moz-column-count: 3;
+    -moz-column-gap: 0px;
+    column-count: 3;
+    column-gap: 0px;
+}
+
+#photos img {
+    width: 100% !important;
+    height: auto !important;
+    margin: 10px;
 }
