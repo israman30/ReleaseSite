@@ -19,16 +19,17 @@ nav li {
     text-decoration: none;
     display: inline-block;
     font-family: 'PT Sans', sans-serif;
-    color: #777;
-    font-size: 18px;
-    margin-top: 42px;
+    color: #bb8dd0;
+    font-size: 15px;
+    margin-top: 45px;
     margin-left: 25px;
     margin-right: 25px;
+    text-transform: uppercase;
     transition: 0.2s ease;
 }
 
 nav li:hover {
-    color:#bb8dd0;
+    color:#777;
     transition: .2s ease;
 }
 
