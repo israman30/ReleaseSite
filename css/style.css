@@ -4,7 +4,7 @@
 }
 
 body {
-    background: #f9f6f5;
+    background: #fff;
 }
 
 /* ============= Nav Bar ============= */
@@ -13,6 +13,7 @@ nav {
     height: 80px;
     background: #fff;
     text-align: center;
+    border-bottom: 0.5px #e4d9e9 solid;
 }
 
 nav li {
@@ -36,13 +37,13 @@ nav li:hover {
 /* =========== Header Logo =========== */
 .logo {
     width: 100%;
-    height: 200px;
+    height: 300px;
     text-align: center;
 }
 
-.logo h1 {
-    margin: auto;
-    padding-top: 50px;
+.logo img {
+    width: 340px;
+    margin-top: 75px;
 }
 
 /* ========== Gallery ================ */
