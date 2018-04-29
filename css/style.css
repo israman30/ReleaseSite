@@ -13,7 +13,7 @@ nav {
     height: 80px;
     background: #fff;
     text-align: center;
-    border-bottom: 0.5px #e4d9e9 solid;
+    /* border-bottom: 0.5px #e4d9e9 solid; */
 }
 
 nav li {
