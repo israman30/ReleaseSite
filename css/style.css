@@ -124,7 +124,7 @@ nav li:hover {
 
 /* ==== left side ===== */
 .me {
-    background: #bb8dd0;
+    background: #fff;
     width: 50%;
     min-height: 700px;
     text-align: center;
@@ -140,11 +140,12 @@ nav li:hover {
 .me p {
     font-size: 15px;
     margin-top:10px;
+    color: #333;
 }
 
 /* ===== right side ====== */
 .about {
-    background: #777;
+    background: #fff;
     width: 50%;
     min-height: 700px;
     font-family: 'PT Sans', sans-serif;
@@ -161,6 +162,13 @@ nav li:hover {
     margin-left: 20px;
     margin-right: 150px;
     font-size: 20px;
+    color: #777;
+}
+
+#copy {
+    margin-bottom: 50px;
+    font-size: 14px;
+    color: #777;
 }
 
 /* =======@@@@@ Media Query @@@@@===== */
@@ -170,6 +178,26 @@ nav li:hover {
         -webkit-column-count: 2;
         column-count: 2;
     }
+}
+
+@media(max-width: 990px) {
+    .me {
+        width: 100%;
+        float: right;
+    }
+
+    .about {
+        width: 100%;
+    }
+
+    .about h1 {
+        margin-left: 60px;
+    }
+
+    .about p {
+        margin: 30px 60px 20px 60px;
+    }
+    
 }
 
 @media(max-width: 750px) {
