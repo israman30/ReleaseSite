@@ -120,6 +120,22 @@ nav li:hover {
     color: #777;
 }
 
+/******* ABOUT ME PAGE **********/
+
+.me {
+    background: #bb8dd0;
+    width: 50%;
+    height: 200px;
+    float: left;
+}
+
+.about {
+    background: #777;
+    width: 50%;
+    height: 200px;
+    float: left;
+}
+
 
 /* =======@@@@@ Media Query @@@@@===== */
 @media(max-width: 1160px) {
