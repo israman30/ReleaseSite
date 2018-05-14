@@ -185,8 +185,12 @@ nav li:hover {
     height: 400px;
     background: #bb8dd0;
     text-align: center;
+    font-family: 'Cormorant Unicase', serif;
 }
 
+.invest h1 {
+    margin-bottom: 40px;
+}
 
 
 
