@@ -191,7 +191,7 @@ nav li:hover {
 }
 
 .invest h1 {
-    margin-bottom: 40px;
+    margin-bottom: 50px;
     font-family: 'Cormorant Unicase', serif;
 }
 
@@ -208,6 +208,23 @@ nav li:hover {
 .invest #price {
     margin-bottom: 30px;
 }
+
+.phr {
+    width: 50%;
+    height: 100px;
+    background: #fff;
+    text-align: center;
+    margin: auto;
+}
+
+.phr h3 {
+    font-size: 15px;
+    padding-top: 32px;
+    color: #bb8dd0;
+}
+
+
+
 
 
 
