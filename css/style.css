@@ -153,6 +153,7 @@ nav li:hover {
     background: #fff;
     width: 50%;
     min-height: 700px;
+    margin-bottom: 100px;
     font-family: 'PT Sans', sans-serif;
     float: left;
 }
@@ -170,6 +171,12 @@ nav li:hover {
     font-family: 'Cormorant Unicase', serif;
     line-height: 26px;
     color: #252628;
+}
+
+#mail {
+    text-align: center;
+    font-size: 18px;
+    color: #3b3c3d;
 }
 
 #copy {
