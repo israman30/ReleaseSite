@@ -167,7 +167,9 @@ nav li:hover {
     margin-left: 20px;
     margin-right: 200px;
     font-size: 18px;
-    color: #676767;
+    font-family: 'Cormorant Unicase', serif;
+    line-height: 26px;
+    color: #252628;
 }
 
 #copy {
