@@ -13,6 +13,9 @@ for (var i = 0; i < 25; i++){
 // $('#photos').append(images);
 
 // Top Button section
+/*
+    Function display top button when view gets scroll by about X pxs.
+*/
 window.onscroll = function() {scrollToTop()};
 function scrollToTop(){
   if(document.body.scrollTop > 800 || document.documentElement.scrollTop > 800){
@@ -21,7 +24,7 @@ function scrollToTop(){
     document.getElementById('btn').style.display = 'none';
   }
 }
-
+// Function returns the top position the view
 function topBtn(){
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
