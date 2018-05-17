@@ -12,8 +12,8 @@ for (var i = 0; i < 25; i++){
 
 // $('#photos').append(images);
 
-// Top Button section
 /*
+    Top Button section
     Function display top button when view gets scroll by about X pxs.
 */
 window.onscroll = function() {scrollToTop()};
