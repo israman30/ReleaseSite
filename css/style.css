@@ -23,6 +23,7 @@ body {
   border: none;
   font-family: 'Cormorant Unicase', serif;
   cursor: pointer;
+  transition: ease-in .2s;
 }
 
 #btn:hover {
