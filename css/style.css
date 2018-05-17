@@ -11,7 +11,7 @@ body {
 #btn {
   position:fixed;
   bottom: 30px;
-  right: 20px;
+  right: 15px;
   font-size: 20px;
   z-index: 99;
   background: #777;
@@ -27,6 +27,8 @@ body {
 #btn:hover {
     background: #eee;
     color: #333;
+    border: none;
+    border-radius: 50%;
     transition: ease-in .2s;
   }
 
