@@ -84,14 +84,14 @@ nav li:hover {
     -moz-column-count: 3;
     -moz-column-gap: 0px;
     column-count: 3;
-    column-gap: 0px;
+    column-gap: 10px;
 }
 
 #photos img {
     width: 100% !important;
     height: auto !important;
-    margin-top: 20px;
-    margin-left: 20px;
+    margin-top: 10px;
+    margin-left: 0px;
 }
 
 /* ===== footer section ======= */
