@@ -1,17 +1,3 @@
-function getRandomSize(min, max){
-    return Math.round(Math.random() * (max - min) + min);
-}
-
-var images = '';
-
-for (var i = 0; i < 25; i++){
-    var width = getRandomSize(200, 400);
-    var height = getRandomSize(200, 400);
-    images += '<img src="../img/'+width+'/'+height+'/photos" alt="photos">';
-}
-
-// $('#photos').append(images);
-
 /*
     Top Button section
     Function display top button when view gets scroll by about X pxs.
@@ -29,3 +15,30 @@ function topBtn(){
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+
+// =============== Burger nav bar animation block =============
+const navSlide = () => {
+  const burger = document.querySelector('.burger');
+  const nav = document.querySelector('.nav-links');
+  const navLinks = document.querySelectorAll('.nav-links li');
+
+
+  burger.addEventListener('click', ()=>{
+    // Toggle nav bar
+    nav.classList.toggle('nav-active');
+
+    // Aniamate nav bar
+    navLinks.forEach((link,index)=>{
+      if(link.style.animation){
+        link.style.animation = '';
+      } else {
+        link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.5}s`;
+      }
+    });
+    // buger animation
+    burger.classList.toggle('toggle');
+  });  
+}
+
+navSlide();

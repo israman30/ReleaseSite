@@ -34,32 +34,118 @@ body {
     transition: ease-in .2s;
   }
 
+
 /* ============= Nav Bar ============= */
 nav {
-    width: 100%;
-    height: 80px;
-    background: #fff;
-    text-align: center;
-    /* border-bottom: 0.5px #e4d9e9 solid; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
 }
 
-nav li {
-    text-decoration: none;
-    display: inline-block;
-    font-family: 'PT Sans', sans-serif;
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links a {
     color: #bb8dd0;
-    letter-spacing: 2px;
-    font-size: 15px;
-    margin-top: 45px;
-    margin-left: 25px;
-    margin-right: 25px;
-    text-transform: uppercase;
-    transition: 0.2s ease;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-family: 'Prompt', sans-serif;
 }
 
-nav li:hover {
-    color:#777;
+/* ========== burger menu item ========= */
+.burger {
+    display: none;
+    cursor: pointer;
 }
+
+.burger div {
+    width: 25px;
+    height: 3px;
+    background-color: #bb8dd0;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+
+@media screen and (max-width:1024px) {
+    .nav-links {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    body {
+        overflow-x: hidden;
+    }
+    .nav-links {
+        position: absolute;
+        right: 0;
+        height: 92vh;
+        top: 8vh;
+        background: #bb8dd0;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+    }
+
+    .nav-links li {
+        opacity: 0;
+    }
+
+    .nav-links a {
+        color: #fff;
+        font-size: 25px;
+    }
+
+    .nav-links a:hover {
+        padding:10px 40px;
+        border-bottom: 2px solid #fff;
+    }
+
+    .burger {
+        display: block;
+    }
+}
+
+/* Class added with animation using JS */
+.nav-active {
+    transform: translateX(0%);
+}
+
+/* animaton for burger */
+@keyframes navLinkFade {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+/* Adding toggle class for burger animation using JS */
+.toggle .line1 {
+    transform: rotate(-45deg) translate(-5px,6px);
+}
+.toggle .line2 {
+    opacity: 0;
+}
+.toggle .line3 {
+    transform: rotate(45deg) translate(-5px,-6px);
+}
+
 
 /* =========== Header Logo =========== */
 .logo {
@@ -134,7 +220,7 @@ nav li:hover {
     min-height: 700px;
     text-align: center;
     float: left;
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Prompt', sans-serif;
 }
 
 .me img {
@@ -159,7 +245,7 @@ nav li:hover {
     width: 50%;
     min-height: 700px;
     margin-bottom: 100px;
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Prompt', sans-serif;
     float: left;
 }
 
@@ -197,7 +283,7 @@ nav li:hover {
     height: 400px;
     background: #fff;
     text-align: center;
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Prompt', sans-serif;
     color: #252628;
     /* font-family: 'Cormorant Unicase', serif; */
 }
