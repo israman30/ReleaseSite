@@ -41,6 +41,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
+    /* font-family: 'Prompt', sans-serif; */
 }
 
 .nav-links {
@@ -57,7 +58,7 @@ nav {
     color: #bb8dd0;
     text-decoration: none;
     letter-spacing: 3px;
-    font-family: 'Prompt', sans-serif;
+    /* font-family: 'Prompt', sans-serif; */
 }
 
 /* ========== burger menu item ========= */
