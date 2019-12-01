@@ -1,0 +1,25 @@
+/* ============= Nav Bar ============= */
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    /* font-family: 'Prompt', sans-serif; */
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links a {
+    color: var(--pink-color);
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+}

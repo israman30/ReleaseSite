@@ -1,0 +1,26 @@
+/* ==== top button =====*/
+#btn {
+    position:fixed;
+    bottom: 30px;
+    right: 40px;
+    font-size: 20px;
+    z-index: 99;
+    background: var(--background-btn);
+    color: var(--color);
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    padding: 10px;
+    border: none;
+    font-family: 'Prompt', sans-serif;
+    cursor: pointer;
+    transition: ease-in .2s;
+  }
+  
+  #btn:hover {
+      background: rgba(238, 238, 238, .5);
+      color: #333;
+      border: none;
+      border-radius: 50%;
+      transition: ease-in .2s;
+    }
