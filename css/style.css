@@ -7,6 +7,7 @@
     --pink-color: #bb8dd0;
     --color: #777;
     --background-btn: rgba(187, 141, 208, .5);
+    --transition-burger: all 0.3s ease;
 }
 
 body {
@@ -40,7 +41,6 @@ body {
     transition: ease-in .2s;
   }
 
-
 /* ============= Nav Bar ============= */
 nav {
     display: flex;
@@ -64,6 +64,7 @@ nav {
     color: var(--pink-color);
     text-decoration: none;
     letter-spacing: 3px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* ========== burger menu item ========= */
@@ -77,7 +78,7 @@ nav {
     height: 3px;
     background-color: var(--pink-color);
     margin: 5px;
-    transition: all 0.3s ease;
+    transition: var(--transition-burger);
 }
 
 @media screen and (max-width: 1024px) {
@@ -235,7 +236,7 @@ nav {
     margin-left: 180px;
     border-radius: 2px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
-    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .me p {
