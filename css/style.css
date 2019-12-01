@@ -5,6 +5,7 @@
 
 :root {
     --pink-color: #bb8dd0;
+    --pink-color-hover: #cd9fe2;
     --color: #777;
     --background-btn: rgba(187, 141, 208, .5);
     --transition-burger: all 0.3s ease;
