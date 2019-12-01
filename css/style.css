@@ -3,6 +3,12 @@
     padding: 0;
 }
 
+:root {
+    --pink-color: #bb8dd0;
+    --color: #777;
+    --background-btn: rgba(187, 141, 208, .5);
+}
+
 body {
     background: #fff;
 }
@@ -14,8 +20,8 @@ body {
   right: 40px;
   font-size: 20px;
   z-index: 99;
-  background: rgba(187, 141, 208, .5);
-  color: #777;
+  background: var(--background-btn);
+  color: var(--color);
   width: 65px;
   height: 65px;
   border-radius: 50%;
@@ -55,10 +61,9 @@ nav {
 }
 
 .nav-links a {
-    color: #bb8dd0;
+    color: var(--pink-color);
     text-decoration: none;
     letter-spacing: 3px;
-    /* font-family: 'Prompt', sans-serif; */
 }
 
 /* ========== burger menu item ========= */
@@ -70,18 +75,18 @@ nav {
 .burger div {
     width: 25px;
     height: 3px;
-    background-color: #bb8dd0;
+    background-color: var(--pink-color);
     margin: 5px;
     transition: all 0.3s ease;
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width: 1024px) {
     .nav-links {
         width: 80%;
     }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
     body {
         overflow-x: hidden;
     }
@@ -90,7 +95,7 @@ nav {
         right: 0;
         height: 92vh;
         top: 8vh;
-        background: #bb8dd0;
+        background: var(--pink-color);
         color: #fff;
         display: flex;
         flex-direction: column;
@@ -194,7 +199,7 @@ nav {
 .footer a {
     display: inline-block;
     font-size: 23px;
-    color: #bb8dd0;
+    color: var(--pink-color);
     margin-top: 200px;
     margin-left: 10px;
     margin-right: 10px;
@@ -202,14 +207,14 @@ nav {
 }
 
 .footer a:hover {
-    color: #777;
+    color: var(--color);
     transition: 1s ease;
 }
 
 .footer p {
     margin-top: 210px;
     font-size: 14px;
-    color: #777;
+    color: var(--color);
 }
 
 /******* ABOUT ME PAGE **********/
@@ -274,7 +279,7 @@ nav {
 #copy {
     margin-bottom: 50px;
     font-size: 14px;
-    color: #777;
+    color: var(--color);
 }
 
 /******* INVESTMENT SECTION **********/
@@ -319,7 +324,7 @@ nav {
 .phr h3 {
     font-size: 15px;
     padding-top: 32px;
-    color: #bb8dd0;
+    color: var(--pink-color);
 }
 
 
