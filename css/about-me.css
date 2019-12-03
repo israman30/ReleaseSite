@@ -1,5 +1,6 @@
 /******* ABOUT ME PAGE **********/
-
+@import url('https://fonts.googleapis.com/css?family=Prompt');
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Unicase');
 /* ==== left side ===== */
 .me {
     background: #fff;
@@ -24,6 +25,7 @@
     margin-top: 20px;
     margin-left: 180px;
     color: var(--pink-color);
+    font-family: 'Prompt', sans-serif;
 }
 
 /* ===== right side ====== */
