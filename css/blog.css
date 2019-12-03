@@ -1,0 +1,25 @@
+section {
+    width: 80%;
+    /* background: #777; */
+    margin: auto;
+}
+
+.blog {
+    width: 100%;
+    min-height: 200px;
+    margin-bottom: 60px;
+}
+
+.blog h3 {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.blog p {
+    margin: 10px auto;
+    font-size: 17px;
+    line-height: 20px;
+}
+.blog span {
+    float: right;
+}
