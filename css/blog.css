@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
 section {
     width: 80%;
     /* background: #777; */
     margin: auto;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .blog {
@@ -13,12 +16,13 @@ section {
 .blog h3 {
     text-align: center;
     margin: 20px auto;
+    font-size: 25px;
 }
 
 .blog p {
     margin: 10px auto;
-    font-size: 17px;
-    line-height: 20px;
+    font-size: 16px;
+    line-height: 25px;
 }
 .blog span {
     float: right;

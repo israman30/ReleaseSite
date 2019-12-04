@@ -1,6 +1,7 @@
 /******* ABOUT ME PAGE **********/
 @import url('https://fonts.googleapis.com/css?family=Prompt');
 @import url('https://fonts.googleapis.com/css?family=Cormorant+Unicase');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 /* ==== left side ===== */
 .me {
     background: #fff;
@@ -41,14 +42,15 @@
 .about h1 {
     margin-top: 80px;
     margin-left: 20px;
+    font-size: 45px;
 }
 
 .about p {
-    margin-top: 25px;
+    margin-top: 20px;
     margin-left: 20px;
     margin-right: 200px;
     font-size: 18px;
-    font-family: 'Cormorant Unicase', serif;
+    font-family: 'Montserrat', sans-serif;
     line-height: 26px;
     color: #252628;
 }
