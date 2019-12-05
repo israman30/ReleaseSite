@@ -1,5 +1,5 @@
 /******* INVESTMENT SECTION **********/
-@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Cormorant+Unicase');
 
 .invest {
@@ -7,13 +7,13 @@
     height: 400px;
     background: #fff;
     text-align: center;
-    font-family: 'Prompt', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #252628;
     /* font-family: 'Cormorant Unicase', serif; */
 }
 
 .invest h1 {
-    margin-bottom: 50px;
+    margin: 60px auto;
     font-family: 'Cormorant Unicase', serif;
 }
 
